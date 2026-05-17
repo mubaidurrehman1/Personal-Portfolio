@@ -9,7 +9,7 @@ export function GhostButton({ href, children, onClick, className = "" }) {
   return (
     <Component
       {...props}
-      className={`inline-flex items-center justify-center px-8 py-3.5 font-mono-label text-bone-50 border border-hairline bg-transparent transition-colors duration-500 hover:border-gold-500/40 hover:text-gold-300 ${className}`}
+      className={`theme-ghost-btn inline-flex items-center justify-center px-8 py-3.5 font-mono-label text-bone-50 border border-hairline bg-transparent transition-all duration-500 hover:border-gold-500/40 hover:text-gold-300 ${className}`}
       whileHover={{ y: -2 }}
       whileTap={{ y: 0 }}
       transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}

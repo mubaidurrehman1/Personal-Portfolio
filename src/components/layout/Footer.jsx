@@ -1,5 +1,10 @@
+import { useTheme } from "../../hooks/useTheme";
+import { THEMES } from "../../data/themes";
+
 export function Footer() {
   const year = new Date().getFullYear();
+  const { theme } = useTheme();
+  const colophon = THEMES[theme]?.colophon ?? THEMES.obsidian.colophon;
 
   return (
     <footer className="border-t border-hairline py-12 px-[var(--spacing-gutter)]">
@@ -8,7 +13,7 @@ export function Footer() {
           © {year} Muhammad Ubaid ur Rehman
         </p>
         <p className="font-mono-label text-bone-300/40 text-right">
-          Set in Fraunces & Geist · Built with React
+          {colophon}
         </p>
       </div>
     </footer>

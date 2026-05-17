@@ -63,7 +63,7 @@ export function SideRail({ activeId }) {
   return (
     <>
       {/* Mobile top progress */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-50 h-px bg-hairline">
+      <div className="theme-progress-track md:hidden fixed top-0 left-0 right-0 z-50 h-px bg-hairline">
         <motion.div
           className="h-full bg-gold-500 origin-left"
           style={{ width: `${progress}%` }}
@@ -73,7 +73,7 @@ export function SideRail({ activeId }) {
 
       <button
         type="button"
-        className="md:hidden fixed top-4 right-4 z-50 font-mono-label text-bone-300 border border-hairline px-3 py-2 bg-ink-900/80 backdrop-blur-sm"
+        className="theme-mobile-menu md:hidden fixed top-4 right-4 z-50 font-mono-label text-bone-300 border border-hairline px-3 py-2 bg-ink-900/80 backdrop-blur-sm"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-expanded={menuOpen}
         aria-label="Toggle navigation"
@@ -84,7 +84,7 @@ export function SideRail({ activeId }) {
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            className="md:hidden fixed inset-0 z-40 bg-ink-950/95 backdrop-blur-md flex items-center justify-center"
+            className="theme-menu-overlay md:hidden fixed inset-0 z-40 bg-ink-950/95 backdrop-blur-md flex items-center justify-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -96,7 +96,7 @@ export function SideRail({ activeId }) {
       </AnimatePresence>
 
       {/* Desktop side rail */}
-      <aside className="hidden md:flex fixed left-0 top-0 bottom-0 z-40 w-20 lg:w-24 flex-col justify-center pl-6 lg:pl-8 border-r border-hairline bg-ink-950/40 backdrop-blur-sm">
+      <aside className="theme-side-rail hidden md:flex fixed left-0 top-0 bottom-0 z-40 w-20 lg:w-24 flex-col justify-center pl-6 lg:pl-8 border-r border-hairline bg-ink-950/40 backdrop-blur-sm">
         <nav aria-label="Section navigation">{navList}</nav>
         <div className="absolute bottom-8 left-6 lg:left-8 right-6 lg:right-8">
           <div className="h-24 w-px bg-hairline mx-auto relative overflow-hidden">

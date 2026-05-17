@@ -1,0 +1,41 @@
+/* Obsidian Atelier — default theme */
+:root,
+[data-theme="obsidian"] {
+  --color-ink-950: #07090d;
+  --color-ink-900: #0c1018;
+  --color-ink-800: #141a26;
+  --color-bone-50: #efece4;
+  --color-bone-300: #b9b3a3;
+  --color-gold-500: #c9a875;
+  --color-gold-300: #e3cda1;
+  --color-hairline: rgba(239, 236, 228, 0.08);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Geist Variable", "Geist", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --glow-gradient: radial-gradient(
+    ellipse at 50% 30%,
+    rgba(201, 168, 117, 0.12) 0%,
+    rgba(12, 16, 24, 0) 65%
+  );
+  --selection-bg: rgba(201, 168, 117, 0.25);
+  --grain-opacity: 0.035;
+  --theme-meta-color: #07090d;
+  --marquee-duration: 40s;
+  --glow-opacity: 0.4;
+}
+
+@theme inline {
+  --color-ink-950: var(--color-ink-950);
+  --color-ink-900: var(--color-ink-900);
+  --color-ink-800: var(--color-ink-800);
+  --color-bone-50: var(--color-bone-50);
+  --color-bone-300: var(--color-bone-300);
+  --color-gold-500: var(--color-gold-500);
+  --color-gold-300: var(--color-gold-300);
+  --color-hairline: var(--color-hairline);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}

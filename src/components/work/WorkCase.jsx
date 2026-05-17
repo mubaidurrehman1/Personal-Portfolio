@@ -41,7 +41,9 @@ export function WorkCase({ project, index, isLast }) {
         </div>
       </div>
 
-      {!isLast && <Divider className="mt-16 md:mt-24 bg-gold-500/20 h-px" />}
+      {!isLast && (
+        <Divider className="theme-work-rule mt-16 md:mt-24 bg-gold-500/20 h-px" />
+      )}
     </motion.article>
   );
 }

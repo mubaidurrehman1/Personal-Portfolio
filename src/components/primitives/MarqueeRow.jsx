@@ -6,7 +6,7 @@ export function MarqueeRow({ items, className = "" }) {
 
   return (
     <div
-      className={`overflow-hidden border-y border-hairline py-4 ${className}`}
+      className={`theme-marquee overflow-hidden border-y border-hairline py-4 ${className}`}
       aria-hidden="true"
     >
       <div

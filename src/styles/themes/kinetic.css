@@ -1,0 +1,28 @@
+/* Kinetic Couture — runway energy, rose & violet glow */
+[data-theme="kinetic"] {
+  --color-ink-950: #0c0614;
+  --color-ink-900: #140a1f;
+  --color-ink-800: #1f1230;
+  --color-bone-50: #fdf2f8;
+  --color-bone-300: #c4b5cd;
+  --color-gold-500: #ec4899;
+  --color-gold-300: #f9a8d4;
+  --color-hairline: rgba(253, 242, 248, 0.1);
+
+  --font-display: "Syne", system-ui, sans-serif;
+  --font-body: "Outfit Variable", "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --glow-gradient: radial-gradient(
+    ellipse at 28% 18%,
+    rgba(236, 72, 153, 0.38) 0%,
+    rgba(168, 85, 247, 0.18) 42%,
+    rgba(12, 6, 20, 0) 68%
+  );
+  --selection-bg: rgba(236, 72, 153, 0.32);
+  --grain-opacity: 0.028;
+  --theme-meta-color: #0c0614;
+  --marquee-duration: 22s;
+  --glow-opacity: 0.62;
+  color-scheme: dark;
+}

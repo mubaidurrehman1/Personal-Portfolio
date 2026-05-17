@@ -54,7 +54,7 @@ export function LineageSection() {
                   <p className="text-prose mt-4 max-w-2xl">{item.description}</p>
                 </div>
                 <span
-                  className="absolute left-[-5px] md:left-[4.25rem] top-2 w-2 h-2 rounded-full bg-gold-500 ring-4 ring-ink-950"
+                  className="theme-timeline-dot absolute left-[-5px] md:left-[4.25rem] top-2 w-2 h-2 rounded-full bg-gold-500 ring-4 ring-ink-950"
                   aria-hidden
                 />
               </motion.li>

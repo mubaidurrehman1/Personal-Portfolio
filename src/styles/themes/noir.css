@@ -1,0 +1,27 @@
+/* Editorial Noir — fashion magazine, burgundy on true black */
+[data-theme="noir"] {
+  --color-ink-950: #030303;
+  --color-ink-900: #0a0a0a;
+  --color-ink-800: #141414;
+  --color-bone-50: #f7f4ef;
+  --color-bone-300: #a39e96;
+  --color-gold-500: #9f1239;
+  --color-gold-300: #be123c;
+  --color-hairline: rgba(247, 244, 239, 0.09);
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --glow-gradient: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(159, 18, 57, 0.1) 0%,
+    rgba(3, 3, 3, 0) 58%
+  );
+  --selection-bg: rgba(159, 18, 57, 0.28);
+  --grain-opacity: 0.048;
+  --theme-meta-color: #030303;
+  --marquee-duration: 40s;
+  --glow-opacity: 0.32;
+  color-scheme: dark;
+}

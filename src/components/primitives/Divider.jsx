@@ -5,12 +5,16 @@ export function Divider({ className = "", animate = true }) {
   const reduced = useReducedMotion();
 
   if (!animate || reduced) {
-    return <hr className={`border-0 h-px bg-hairline w-full ${className}`} />;
+    return (
+      <hr
+        className={`theme-section-rule border-0 h-px bg-hairline w-full ${className}`}
+      />
+    );
   }
 
   return (
     <motion.hr
-      className={`border-0 h-px bg-hairline w-full origin-left ${className}`}
+      className={`theme-section-rule border-0 h-px bg-hairline w-full origin-left ${className}`}
       initial={{ scaleX: 0 }}
       whileInView={{ scaleX: 1 }}
       viewport={{ once: true, margin: "-40px" }}

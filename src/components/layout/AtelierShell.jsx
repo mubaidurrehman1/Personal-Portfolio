@@ -1,6 +1,7 @@
 import { GrainOverlay } from "./GrainOverlay";
 import { InkGlow } from "./InkGlow";
 import { SideRail } from "./SideRail";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function AtelierShell({ children, activeSectionId }) {
   return (
@@ -9,6 +10,7 @@ export function AtelierShell({ children, activeSectionId }) {
       <InkGlow />
       <SideRail activeId={activeSectionId} />
       <main className="relative z-10 md:pl-20 lg:pl-24">{children}</main>
+      <ThemeToggle />
     </div>
   );
 }
