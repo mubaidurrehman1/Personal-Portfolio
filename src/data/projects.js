@@ -1,51 +1,56 @@
 export const projects = [
   {
-    title: "Web Based Maze Game",
-    description:
-      "Implemented core JavaScript logic for maze generation and implemented matter.js for in game physics. Improved problem-solving skills and gained experience in JavaScript.",
-    tags: ["React", "JavaScript", "CSS"],
-    link: "https://github.com/Snowden-0/Maze",
-  },
-  {
     title: "Intelligent PDF Search Application",
+    year: "2025",
+    role: "Frontend Lead",
     description:
-      "Working on the frontend for a Role Based AI-powered web application that allows users to search and retrieve context-aware answers from multiple PDF documents using vector search and LLMs. Built a responsive UI using React and Tailwind CSS. ",
-    tags: [
-      "React",
-      "Framer-motion",
-      "TailwindCSS",
-      "FastApi",
-      "PostgreSQL",
-      "Vite",
-    ],
+      "Role-based AI-powered web application for context-aware search across multiple PDF documents using vector search and LLMs. Built a responsive, editorial UI in React and Tailwind CSS.",
+    tags: ["React", "Tailwind", "FastAPI", "PostgreSQL", "Vite"],
     link: "https://github.com/BlackShadow7166/pdf-search-engine-frontend",
   },
   {
     title: "Full-Stack Blog Application",
+    year: "2024",
+    role: "Full-Stack Developer",
     description:
-      "Developed a blog application with React and Tailwind CSS for a dynamic UI. Integrated Appwrite for backend support, including user authentication and database management. Implemented features like user registration, login, post creation, editing and deleting posts.",
-    tags: ["React", "TailwindCSS", "Appwrite", "Redux", "Vite", "MongoDB"],
+      "Blog platform with React and Tailwind CSS, Appwrite for authentication and database management. Registration, login, and full CRUD for posts.",
+    tags: ["React", "Tailwind", "Appwrite", "Redux", "MongoDB"],
     link: "https://github.com/Snowden-0/blogApp",
   },
   {
-    title: "Currency Converter Application ",
+    title: "Web Based Maze Game",
+    year: "2024",
+    role: "Frontend Developer",
     description:
-      "Effortlessly convert currencies in real-time with this React app, built using Vite. Injected React built-in hooks along with custom hooks to enhance app performance.",
-    tags: ["JavaScript", "React", "Tailwind", "Vite"],
+      "Core JavaScript logic for procedural maze generation with Matter.js physics. A study in algorithms, game loops, and interactive canvas work.",
+    tags: ["React", "JavaScript", "Matter.js"],
+    link: "https://github.com/Snowden-0/Maze",
+  },
+  {
+    title: "Currency Converter",
+    year: "2024",
+    role: "Frontend Developer",
+    description:
+      "Real-time currency conversion built with Vite and React hooks — custom hooks for performance and clean separation of data fetching from presentation.",
+    tags: ["React", "Tailwind", "Vite"],
     link: "https://github.com/Snowden-0/currencyConverter",
   },
   {
     title: "Task Management Application",
+    year: "2024",
+    role: "Frontend Developer",
     description:
-      "Created a Todo Application using react and tailwind. Used Context-API to manage states in components. User can create, delete and update and mark the completed tasks. ",
-    tags: ["React", "TailwindCSS", "ContextApi", "Vite"],
+      "Todo application with Context API for state management. Create, update, delete, and mark tasks complete with a minimal, focused interface.",
+    tags: ["React", "Tailwind", "Context API"],
     link: "https://github.com/Snowden-0/todoContext",
   },
   {
-    title: "Attendence Management System",
+    title: "Attendance Management System",
+    year: "2023",
+    role: "Desktop Developer",
     description:
-      "Created a GUI based Desktop Application in JAVA using JDBC. Gained hands-on expertise on Java and its technologies",
-    tags: ["Java", "JDBC"],
+      "GUI desktop application in Java with JDBC — hands-on experience with enterprise patterns and relational data persistence.",
+    tags: ["Java", "JDBC", "Swing"],
     link: "https://github.com/Snowden-0/Attendance-Management-System",
   },
 ];

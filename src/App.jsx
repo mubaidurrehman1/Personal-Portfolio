@@ -1,7 +1,7 @@
-import PortfolioPage from "./pages/PortfolioPage";
+import AtelierApp from "./app/AtelierApp";
 
 function App() {
-  return <PortfolioPage />;
+  return <AtelierApp />;
 }
 
 export default App;

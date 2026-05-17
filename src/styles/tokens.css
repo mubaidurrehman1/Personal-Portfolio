@@ -1,0 +1,22 @@
+@theme {
+  --color-ink-950: #07090d;
+  --color-ink-900: #0c1018;
+  --color-ink-800: #141a26;
+  --color-bone-50: #efece4;
+  --color-bone-300: #b9b3a3;
+  --color-gold-500: #c9a875;
+  --color-gold-300: #e3cda1;
+  --color-hairline: rgba(239, 236, 228, 0.08);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Geist Variable", "Geist", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --ease-atelier: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-slow: 0.9s;
+  --duration-medium: 0.6s;
+
+  --spacing-section: clamp(6rem, 14vh, 10rem);
+  --spacing-gutter: clamp(1.25rem, 4vw, 3rem);
+  --max-content: 72rem;
+}
