@@ -1,16 +1,7 @@
-import React, { useState, useEffect } from "react";
-
-import Portfolio from "./portfolio";
+import PortfolioPage from "./pages/PortfolioPage";
 
 function App() {
-
-  return (
-
-    <div>
-    
-    <Portfolio />
-    </div>
-  );
+  return <PortfolioPage />;
 }
 
 export default App;
